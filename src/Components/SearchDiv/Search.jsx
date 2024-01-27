@@ -39,7 +39,7 @@ const Search = () => {
           </div>
 
           <Link to="/search">
-          <button className='bg-black h-full p-5 px-10 rounded-[10px] text-white cursor-pointer hover:bg-[#00000090]'>search</button></Link>
+          <button className='bg-black h-full p-5 px-10 rounded-[10px] text-white cursor-pointer hover:bg-[#00000090]'>Search</button></Link>
         </div>
       </form>
     </div>
