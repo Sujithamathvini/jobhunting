@@ -1,10 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
     <div className='navBar flex justify-between items-center p-[2rem]'>
         <div className='logoDiv'>
-            <h1 className='logo icon text-[30px] text-black'><strong className='text-greenColor textStroke pr-[3px]'>Job</strong><span className='font-bold'>Hunting</span></h1>
+          <Link to="/">
+            <button className='logo icon text-[30px] text-black'><strong className='text-greenColor textStroke pr-[3px]'>Job</strong><span className='font-bold'>Hunting</span></button>
+          </Link>
         </div>
         <div className='menu flex gap-8'>
             <li className='menuList text-[#6f6f6f] hover:text-black'>Jobs</li>
